@@ -1,0 +1,28 @@
+.hover:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.page {
+  min-height: 86vh;
+  background-color: aqua;
+  background-image: url("https://wallpaper.dog/large/20493501.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}

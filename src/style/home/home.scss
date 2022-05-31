@@ -1,0 +1,16 @@
+.home {
+  min-height: 85vh;
+  padding: 0.9rem;
+  .reccos,
+  .movies {
+    span {
+      color: #ffffff;
+    }
+  }
+  .recco-list,
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

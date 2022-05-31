@@ -1,0 +1,42 @@
+.app-header {
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f7f7f7;
+  color: black;
+  text-decoration: none;
+  .header-btn {
+    margin: 0.4rem;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    .logo-txt {
+      text-decoration: underline;
+      color: black;
+    }
+    img {
+      height: 13vh;
+      width: 100px;
+    }
+  }
+  .selected-btn {
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .app-header {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
